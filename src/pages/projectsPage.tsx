@@ -2,7 +2,7 @@
 
 function Projects() {
   return (
-    <div>Projects</div>
+    <h1>My Projects</h1>
   )
 }
 

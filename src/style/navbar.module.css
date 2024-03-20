@@ -1,8 +1,8 @@
 .header {
     height: rem(56px);
     margin-bottom: rem(120px);
-    background-color: var(--mantine-color-body);
-    border-bottom: rem(1px) solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
+    background-color: rgb(38, 38, 38);
+    border-bottom: rgb(91, 91, 91);
 
     position: fixed;
     top: 0;
@@ -26,14 +26,8 @@
     padding: rem(8px) rem(12px);
     border-radius: var(--mantine-radius-sm);
     text-decoration: none;
-    color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
+    color: white;
     font-size: var(--mantine-font-size-sm);
     font-weight: 500;
     
-  
-  
-    [data-mantine-color-scheme] &[data-active] {
-      background-color:rgb(65, 65, 65);
-      color: var(--mantine-color-white);
-    }
   }
