@@ -20,15 +20,13 @@ function App() {
     
     <MantineProvider>
       <BrowserRouter>
-      
+<Navbar/>
       <Routes>
         
-        <Route path="/" element={<Navbar />}>
         <Route path="/homePage" element={<Home />} />
         <Route path="/aboutPage" element={<About />} />
         <Route path="/contactPage" element={<Contact />} />
         <Route path="/projectsPage" element={<Projects />} />
-        </Route>
       </Routes>
       </BrowserRouter>
     </MantineProvider>
