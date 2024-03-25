@@ -4,8 +4,8 @@ function Home() {
     return (
     <>
       <h1>Wisdom Moore</h1>
-      <h2>Software Developer student</h2>
-      
+      <h2>Front end Developer ( React.JS / Typescript )</h2>
+      <h3>Currently a Software Developer student in the Netherlands.</h3>
 
     </>
     )
